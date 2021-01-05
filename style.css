@@ -1,0 +1,60 @@
+.container_grid {
+  display: grid;
+  width: 100px;
+  border: 2px solid pink;
+  grid-template-rows:  50px 50px ;
+  grid-template-columns:  50px 50px;
+
+  grid-template-areas:
+  "topLeft topRight"
+  "botLeft botRight"
+
+  
+}
+.top {
+ grid-area: topLeft;
+ width: 100%;
+ background: gold;
+}
+.bot {
+ grid-area: botLeft;
+ width: 100%;
+ background: green;
+}
+.left {
+ grid-area: botRight;
+ width: 100%;
+ background: blue;
+}
+.right {
+ grid-area: topRight;
+ width: 100%;
+ background: red;
+}
+
+.monster {
+ cursor: pointer;
+}
+
+.coin {
+cursor: -webkit-grabbing; cursor: grabbing;
+}
+.area_container {
+ border: 8px solid rgb(200, 10, 50);
+ height: 200px;
+ width: 398px;
+}
+.area_container img {
+  width: 100%;
+}
+#wmessage {
+background-color: rgb(12 150 200); 
+color:white;
+width: 50%;
+padding: 10px;
+
+}
+#mmessage {background-color: red;
+padding: 10px;
+width: 50%;
+color:white;}

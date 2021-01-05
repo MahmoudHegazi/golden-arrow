@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-eu">
+<head>
+<title>Golden Arrow </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="icon" href="images/logo.png" type="image/png">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+
+
+<p id="wmessage"></p>
+<p id="mmessage"></p>
+
+<p>Score: <span id="score_text" style="background-color:black;color:green;padding:10px;font-size:1em;font-weight:bold;font-family:lemon;"> </span><span id="chat" > Game: </span></p>
+
+
+
+
+<img width="50" height="50" id="champ" 
+data-level="1" data-power="50" data-exp="0" data-health="100"
+
+style="display:fixed;" src="images/stickman.gif">
+<img id="endimage" src="images/you-win.gif" style="display:none;">
+
+<img id="endimage1" src="images/golden_arrow.gif" style="display:none;">
+
+<div style="display:flex;width:100px;height:100px;flex-wrap:wrap;display:none">
+
+</div>
+
+<div class="area_container" >
+<img id="fightimage" style="display:none;" height="200">
+
+</div>
+<div id="game_area" style="display:flex;width:500px;flex-wrap:wrap;">
+
+<!-- grid start PS -->
+
+
+<div class="container_grid" >
+
+<div class="step top"></div>
+<div class="step bot"></div>
+<div class="step left"></div>
+<div class="step right"></div>
+</div>
+<!-- grid start PS -->
+<div class="container_grid">
+<div class="step top"></div>
+<div class="step bot"></div>
+<div class="step left"></div>
+<div class="step right"></div>
+</div>
+<!-- grid start PS -->
+<div class="container_grid">
+<div class="step top"></div>
+<div class="step bot"></div>
+<div class="step left"></div>
+<div class="step right"></div>
+</div>
+<!-- grid start PS -->
+<div class="container_grid">
+<div class="step top"></div>
+<div class="step bot"></div>
+<div class="step left"></div>
+<div class="step right"></div>
+</div>
+<!-- grid start PS -->
+<div class="container_grid">
+<div class="step top"></div>
+<div class="step bot"></div>
+<div class="step left"></div>
+<div class="step right"></div>
+</div>
+
+<div class="container_grid">
+<div class="step top"></div>
+<div class="step bot"></div>
+<div class="step left"></div>
+<div class="step right"></div>
+</div>
+
+<div class="container_grid">
+<div class="step top"></div>
+<div class="step bot"></div>
+<div class="step left"></div>
+<div class="step right"></div>
+</div>
+
+<div class="container_grid">
+<div class="step top"></div>
+<div class="step bot"></div>
+<div class="step left"></div>
+<div class="step right"></div>
+</div>
+<div class="container_grid">
+<div class="step top"></div>
+<div class="step bot"></div>
+<div class="step left"></div>
+<div class="step right"></div>
+</div>
+<div class="container_grid">
+<div class="step top"></div>
+<div class="step bot"></div>
+<div class="step left"></div>
+<div class="step right"></div>
+</div>
+<div class="container_grid">
+<div class="step top"></div>
+<div class="step bot"></div>
+<div class="step left"></div>
+<div class="step right"></div>
+</div>
+<div class="container_grid">
+<div class="step top"></div>
+<div class="step bot"></div>
+<div class="step left"></div>
+<div class="step right"></div>
+</div>
+
+</div>
+
+<p id="guide" >Earn 1200 Score To Get The golden Arrow</p>
+
+<audio id="coin_audio" style="display:none;">
+  <source src="sounds/mario_coin_sound.ogg" type="audio/ogg">
+  <source src="sounds/mario_coin_sound.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<script src="game.js"></script>
+
+
+
+</body>
+</html>
